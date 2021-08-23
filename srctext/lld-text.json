@@ -79,5 +79,50 @@
       "Layer 2 discovery protocols such as CDP, LLDP or MNDP provide direct link visibility and ease of management. The sections describe specific operational state of those protocols in the network.",
       "Following table represents detailed XDP (CDP/LLDP/MNDP) information per network device including remote IP or described capabilities."
     ]
+  },
+  "chapter431": {
+    "title": "Protocol Neighbors",
+    "text": ["The following table represents XDP (CDP/LLDP/MNDP) binding between network infrastructure devices."]
+  },
+  "chapter432": {
+    "title": "Unmanaged Discovery Protocol Neighbors",
+    "text": ["Following table represents detailed information about unmanaged discovery protocol neighbors."],
+    "alttext": ["No unmanaged discovery protocol neighbors are present at the site."]
+  },
+  "chapter433": {
+    "title": "Unidirectional Discovery Protocol Neighbors",
+    "text": ["Following table represents detailed information about unidirectional discovery protocol neighbors."],
+    "alttext": ["No unidirectional discovery protocol neighbors are present at the site."]
+  },
+  "chapter44": {
+    "title": "Link Aggregation Channels",
+    "text": ["Following table represents detailed information about link aggregation interfaces."],
+    "alttext": ["No link aggregation channels are present at the site."]
+  },
+  "chapter5": {
+    "title": "Network Layer",
+    "text": ["The following section presents detailed information about Layer 3 addressing and routing at the site."]
+  },
+  "chapter51": {
+    "title": "Routing Protocols",
+    "text": [""]
+  },
+  "chapter52": {
+    "title": "Managed IP Networks",
+    "text": [
+      "A network connected to any of the managed devices at the site is considered a managed network.",
+      "The following table presents information about every Layer 3 managed network at the site. Users of the network are active non-network ARP entries (entries of unmanaged devices) observed on the corresponding network routers. Gateways are the IP address of the corresponding managed device or devices. Both primary and secondary addresses are considered as gateways. Virtual Gateways presents active virtual IP address of the First Hop Redundancy Protocol (FHRP) group active in the network."
+    ]
+  },
+  "chapter53": {
+    "title": "Managed IP Addresses",
+    "text": [
+      "Every IP address on every interface of every managed device is considered a Managed IP address.",
+      "The following table presents all managed IP addresses at the site."
+    ]
+  },
+  "chapter6": {
+    "title": "Management Protocols",
+    "text": ["Gateway redundancy protocols (FHRP, VRRP, GLBP) provide router gateway redundancy for network endpoints."]
   }
 }

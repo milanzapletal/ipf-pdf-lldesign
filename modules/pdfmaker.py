@@ -143,10 +143,13 @@ class GeneratePDF:
             title = txt_source[chapter]['title']
             title_num = chapter.split('chapter')[1]
             title_num_len = len(title_num)
+            title_dots = ''
+            for i in list(title_num):
+                title_dots += i + '.'
             text_pars = txt_source[chapter]['text']
             if title_num_len == 1:
                 pdf.add_page()
-            add_title(title_num + ' ' + title, 'title{}'.format(title_num_len))
+            add_title(title_dots + ' ' + title, 'title{}'.format(title_num_len))
             for par in text_pars:
                 add_text(par)
                 add_space()
