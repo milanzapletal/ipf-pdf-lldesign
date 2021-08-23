@@ -1,0 +1,83 @@
+{
+  "chapter1": {
+    "title": "Low-Level Design Summary",
+    "text": ["This document represents Low Level Design information for site {} as of {}, containing {} managed network infrastructure devices."]
+  },
+  "chapter2": {
+    "title": "Inventory Data",
+    "text": ["Inventory presents information about hardware and software at the site."]
+  },
+  "chapter21": {
+    "title": "Site {} Summary",
+    "text": ["The site contains {} network infrastructure devices supporting {} active endpoints. Traffic to {} networks is routed by {} routers in {} routing domains. Switching at the site is performed by {} switches connected in {} contiguous switching domains supporting {} VLANs."]
+  },
+  "chapter22": {
+    "title": "Managed Devices",
+    "text": ["Managed network infrastructure devices are those devices that actively transfer the data between endpoints. The following table represents managed network infrastructure devices at the site."]
+  },
+  "chapter23": {
+    "title": "Operating Systems",
+    "text": [
+      "Information about unique operating systems include running OS images on managed devices for each platform family, including the number of devices of each specific platform where image is running.",
+      "Software installed for each platform should vary as little as possible to improve operational consistency, ease troubleshooting, and improve root cause analysis. While it is operationally difficult to introduce consistency as a standalone project, consistent software can be introduced as part of the lifecycle software upgrade project.",
+      "The following table represents software images running on individual platforms at the site. Device count represents the number of managed devices with the specific combination of platform and image."
+    ]
+  },
+  "chapter24": {
+    "title": "Part Numbers",
+    "text": ["Managed network infrastructure devices are those devices that actively transfer the data between endpoints. The following table represents managed network infrastructure devices at the site."]
+  },
+  "chapter3": {
+    "title": "Physical Layer",
+    "text": ["Information about physical connectivity and interfaces. The physical layer is mapped with the discovery protocols (CDP, LLDP, MDP, etc.)"]
+  },
+  "chapter31": {
+    "title": "Physical Connectivity Matrix",
+    "text": ["The following table represents physical connectivity between network infrastructure devices."]
+  },
+  "chapter32": {
+    "title": "Half-Duplex Interfaces",
+    "text": [
+      "All interfaces at the site are in full duplex state.",
+      "The following table represents the interfaces detected in half-duplex state."
+    ]
+  },
+  "chapter33": {
+    "title": "Error-Disabled Interfaces",
+    "text": [
+      "The Errdisable error disable feature was designed to inform the administrator when there is a port problem or error.",
+      "No interfaces have been disabled due to error events.",
+      "The following table represents the interfaces detected in half-duplex state."
+    ]
+  },
+  "chapter4": {
+    "title": "Link Layer",
+    "text": ["Detailed operational parameters of link layer protocols such as discovery protocols, link aggregation channels, and spanning-tree protocols."]
+  },
+  "chapter41": {
+    "title": "VLAN Summary",
+    "text": [
+      "A virtual LAN is any broadcast domain that is partitioned and isolated in a computer network at the data link layer. Following table represents VLANs summary in site {}.",
+      "Following table represents VLANs summary per network device."
+    ]
+  },
+  "chapter42": {
+    "title": "Spanning-Tree Protocol",
+    "text": ["Spanning tree protocol prevents loops and manages redundancy in a layer 2 network. Each spanning tree instance is managed separately."]
+  },
+  "chapter421": {
+    "title": "Spanning-Tree bridges",
+    "text": ["Overview of Spanning-Tree bridges with information about STP mode, number of VLANs and number of virtual ports per bridge."]
+  },
+  "chapter422": {
+    "title": "Spanning-Tree Connectivity Matrix",
+    "text": ["The following table represents spanning-tree binding between network infrastructure devices."]
+  },
+  "chapter43": {
+    "title": "Discovery Protocols",
+    "text": [
+      "Layer 2 discovery protocols such as CDP, LLDP or MNDP provide direct link visibility and ease of management. The sections describe specific operational state of those protocols in the network.",
+      "Following table represents detailed XDP (CDP/LLDP/MNDP) information per network device including remote IP or described capabilities."
+    ]
+  }
+}
